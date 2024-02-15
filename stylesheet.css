@@ -1,33 +1,15 @@
-/* Reset styles for default elements */
 body {
-    margin: 0;
-    padding: 0;
     font-family: "Nanum Gothic", sans-serif;
     font-weight: 400;
     font-style: normal;
-
     color: rgb(51, 14, 29);
     line-height: 1;
-    /* Instead of 0% (adjusted to 1 for normal line height) */
+    margin: 0;
+    padding: 0;
 }
 
-/* Titles styles */
-.title1 {
-    font-family: "Poiret One";
-    font-size: 1500%;
-    font-weight: lighter;
-    line-height: 0;
-}
 
-.title2 {
-    font-family: "Poiret One";
-    font-size: 700%;
-    font-weight: lighter;
-    font-weight: lighter;
-    padding-left: 1%;
-}
 
-/* Header styles */
 .navigation {
     overflow: hidden;
     background-color: rgb(158, 102, 102);
@@ -35,7 +17,6 @@ body {
     text-align: right;
 }
 
-/* Paragraph styles */
 .header-left a {
 
     color: #6a2828;
@@ -49,8 +30,6 @@ body {
     float: left;
 }
 
-
-/* Header link styles */
 .header-right a {
 
     background-color: #ddd;
@@ -67,19 +46,16 @@ body {
     margin-bottom: 1%;
 }
 
-/* Header link hover styles */
 .navigation a:hover {
     background-color: #54172d;
     color: white;
 }
 
-/* Right-aligned header links */
 .header-right {
 
     float: right;
 }
 
-/* Media query for responsiveness */
 @media screen and (max-width: 500px) {
     .header a {
         float: none;
@@ -92,11 +68,30 @@ body {
     }
 }
 
+
+
+.title1 {
+    font-family: "Poiret One";
+    font-size: 1500%;
+    font-weight: lighter;
+    line-height: 0;
+}
+
+.title2 {
+    font-family: "Poiret One";
+    font-size: 700%;
+    font-weight: lighter;
+    font-weight: lighter;
+    padding-left: 1%;
+}
+
+
+
 .subtitle {
     padding-left: 1%;
 }
 
-/* Rectangle styles */
+
 #rechteck {
     width: 66.666%;
     height: 66.666%;
@@ -107,9 +102,6 @@ body {
 }
 
 
-
-
-/*resume.hmtl*/
 
 
 
